@@ -21,6 +21,7 @@
 		44B909E718F214B1006DDD07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B909C918F214B1006DDD07 /* UIKit.framework */; };
 		44B909EF18F214B1006DDD07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44B909ED18F214B1006DDD07 /* InfoPlist.strings */; };
 		44B909F118F214B1006DDD07 /* Git_Test_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B909F018F214B1006DDD07 /* Git_Test_2Tests.m */; };
+		44B909FC18F216B4006DDD07 /* TRRTest2.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B909FB18F216B4006DDD07 /* TRRTest2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		44B909EC18F214B1006DDD07 /* Git Test 2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git Test 2Tests-Info.plist"; sourceTree = "<group>"; };
 		44B909EE18F214B1006DDD07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		44B909F018F214B1006DDD07 /* Git_Test_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_Test_2Tests.m; sourceTree = "<group>"; };
+		44B909FA18F216B4006DDD07 /* TRRTest2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRRTest2.h; sourceTree = "<group>"; };
+		44B909FB18F216B4006DDD07 /* TRRTest2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRRTest2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				44B909DB18F214B1006DDD07 /* TRRViewController.m */,
 				44B909DD18F214B1006DDD07 /* Images.xcassets */,
 				44B909CC18F214B1006DDD07 /* Supporting Files */,
+				44B909FA18F216B4006DDD07 /* TRRTest2.h */,
+				44B909FB18F216B4006DDD07 /* TRRTest2.m */,
 			);
 			path = "Git Test 2";
 			sourceTree = "<group>";
@@ -253,6 +258,7 @@
 				44B909DC18F214B1006DDD07 /* TRRViewController.m in Sources */,
 				44B909D218F214B1006DDD07 /* main.m in Sources */,
 				44B909D618F214B1006DDD07 /* TRRAppDelegate.m in Sources */,
+				44B909FC18F216B4006DDD07 /* TRRTest2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
